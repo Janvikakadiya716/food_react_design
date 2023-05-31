@@ -217,7 +217,7 @@ chef in their own kitchen
    </div>
    <View_Instagram/>
  <Racipe_cate_2/>
-   {/* <Home_Inbox/> */}
+   <Home_Inbox/>
    <Footer/>
    </>
   )

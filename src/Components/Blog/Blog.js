@@ -50,7 +50,10 @@ function Blog() {
                           <div className='blog_que'>
                           Do you cook at home on your days off?
               </div>
+              <div className='blog_img'>
               <img src='./girl_chef.png' className="blog_img mt-3"></img>
+              </div>
+         
               <div className='blog_ans '>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit.
               </div>
@@ -81,13 +84,13 @@ function Blog() {
                 <p className='text-center'>SHARE THIS ON:</p>
               </div>
               <div className='row b'>
-                <div className='col-md-12 mt-3'>
+                <div className='col-md-12 mt-5'>
                   <img src='./001-facebook.png '></img>
                 </div>
-                <div className='col-md-12 mt-3'>
+                <div className='col-md-12 mt-5'>
                 <img src='003-twitter.png'></img>
                 </div>
-                <div className='col-md-12 mt-3'>
+                <div className='col-md-12 mt-5'>
                 <img src='004-instagram.png'></img>
                 </div>
               </div>
