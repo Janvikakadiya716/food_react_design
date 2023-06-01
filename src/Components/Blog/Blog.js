@@ -1,8 +1,10 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
-
+import Home_Inbox from '../Home_Inbox';
+import Racipe_cate_2 from '../Racipe_cate_2';
 function Blog() {
   return (
+    <>
     <div className='blog'>
       <div className='container-fluid'>
         <div className='hero_title text-center'>
@@ -99,10 +101,12 @@ function Blog() {
           </div>
         </div>
       </div>
-      <Footer/>
+     
     </div>
-   
-    
+    <Home_Inbox/>
+      <Racipe_cate_2/>
+      <Footer/>
+    </>
   )
 }
 

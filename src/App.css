@@ -743,3 +743,71 @@ font-weight: bold;
 iframe{
   border-radius: 30px;
 }
+.other_title{
+  font-size: 36px;
+Line-height: 44px;
+font-weight: bold;
+}
+.rice_other{
+  padding:30px;
+}
+.rice_radio_title{
+  font-size: 18px;
+Line-height: 22px;
+color: var(--black-text--);
+padding:33px;
+}
+.rice_radio_label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rice_radio_label input[type="radio"] {
+  /* display: none; */
+}
+
+.rice_radio_label span.rice_radio_title {
+  margin-left: 8px;
+}
+
+.rice_radio_label input[type="radio"]:checked + span.rice_radio_title {
+  color: black;
+  font-weight: bold;
+}
+
+.rice_radio_label input[type="radio"]:checked::before {
+  content: "\2713";
+  /* display: inline-block; */
+  width: 12px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 8px;
+  padding:3px 7px 3px 7px;
+  text-align: center;
+  line-height: 10px;
+  color: white;
+  margin-left:-3px;
+}
+.other_img_info h4{
+  font-size: 20px;
+Line-height: 28px;
+font-weight: bold;
+}
+.other_img_info p{
+  font-size: 14px;
+Line-height: 17px;
+color: var(--grey-text--);
+}
+.other_img_info{
+  padding:24px;
+}
+.other_img{
+  display: flex;
+  padding:20px;
+}
+.other_racipes_img{
+  width: 100%;
+  height: auto;
+}
