@@ -25,9 +25,8 @@
     color: black !important;
   }
   .nav-link:hover{
-    background: linear-gradient(#878787  0%,
-    rgba(185, 224, 240, 0) 100%);
-    color: white !important;
+    
+    color: rgb(125, 125, 125) !important;
   /* padding:90px 0px 90px 0px; */
   
   }
@@ -191,6 +190,9 @@ border:none;
 .racipe_cate_2 .button_title {
   font-size: 10px !important;
 }
+.recipe_image_1{
+  background-color: #aaacb1 !important;
+}
 .racipe_cate_2 {
   margin-top: 40px !important;
 }
@@ -235,8 +237,7 @@ border:none;
 }
 }
 .list{
-  background: linear-gradient(rgba(204, 38, 27, 0) 0%,
-  rgba(204, 38, 27, 0.1) 100%);
+ 
   padding:10px 20px 10px 20px;
   margin-top:50px;
 }
@@ -410,7 +411,7 @@ padding-top:24px;
 /* view instagram */
 .view_instagram{
   margin-top:100px;
-  padding:80px 80px 80px 80px;
+  padding:80px 0px 80px 0px;
   background: linear-gradient(rgba(231, 249, 253, 0) 0%,
   #E7F9FD 100%);
 }
@@ -812,20 +813,6 @@ color: var(--grey-text--);
   height: auto;
 }
 
-
-
-/* body {
-  color: #000;
-  overflow-x: hidden;
-  height: 100%;
-  background-image: url("https://i.imgur.com/GMmCQHC.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-} */
-
-
-
-
 .form-card{
   margin-top:60px;
 }
@@ -838,48 +825,78 @@ color: var(--grey-text--);
 }
 input,
 textarea,
-button {
+button ,
+.form-select{
   padding: 8px 15px;
   border-radius: 16px !important;
   margin: 5px 0px;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  font-size: 18px !important;
+  font-size: 14px !important;
   font-weight: 300;
+  color: var(--grey-text--);
 }
-
 input:focus,
+.form-select,
 textarea:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 1px solid #00BCD4;
+  /* border: 1px solid #a1a2a3; */
   outline-width: 0;
   font-weight: 400;
 }
-
-.btn-block {
-  /* text-transform: uppercase;
-  font-size: 15px !important;
-  font-weight: 400;
-  height: 43px;
-  cursor: pointer; */
-}
-
 .btn-block:hover {
   color: #fff !important;
 }
-
 button:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   outline-width: 0;
 }
-::placeholder{
+::placeholder,
+option{
   Font-size: 14px;
 Line-height: 24px;
 }
 .contact{
   padding:50px;
 }
+.Foodieland{
+  justify-content: space-between;
+  background-color: white;
+  padding:10px;
+  /* width:80%; */
+}
+.foodie{
+  
+}
+.food_title{
+  Font-size: 14px;
+Line-height: 17px;
+font-weight: bold;
+/* padding:5px */
+}
+.food_info{
+  Font-size:12px;
+  color: var(--grey-text--);
+}
+.instagram_img{
+  width:100%;
+  height: auto;
+}
+.food_icon{
+  justify-content: space-between;
+}
+.food_follow{
+  background-color: white;
+  padding:20px;
+}
+.food_like{
+  gap: 10px;
+}
+.instagram_view{
+  padding:30px 0px 0px 0px;
+}
+
