@@ -38,7 +38,7 @@ function Racipe_cate_2() {
       <div className='racipes_category'>
         <div className='row'>
           {racipe_list.map((recipe) => (
-            <div className='col-md-3 col-lg-3' key={recipe.id}>
+            <div className='col-md-6 col-lg-3' key={recipe.id}>
               <div className='racipes_list'>
                 <div className='wish-list-button'>
                   <img src='./Heart.png' alt='Heart' />

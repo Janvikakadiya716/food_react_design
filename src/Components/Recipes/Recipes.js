@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 function Recipes() {
   return (
     <>
-      <div className='container-fluid '>
+      <div className='container-fluid  '>
       <div className='recipe_rice'>
         <div className='row'>
           <div className='col-md-8'>

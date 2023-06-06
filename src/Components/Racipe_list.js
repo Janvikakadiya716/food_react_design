@@ -29,9 +29,8 @@ const racipe_list=[
 },
 {
     id:6,
-    img:'./6.png',
-    
-    // title:'Big and Juicy Wagyu Beef Cheeseburger'            
+    img:'./1.png',
+    title:'Big and Juicy Wagyu Beef Cheeseburger'            
 },
 {
     id:7,

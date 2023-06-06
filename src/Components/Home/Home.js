@@ -184,13 +184,66 @@ function Home() {
    </div>
 
    </div>
+  <div className='mobile_view_home'>
+  <div className='container-fluid'>
+   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+  <div class="carousel-item  caro_item active" data-bs-interval="2000">
+     
+     {/* <div class='row home_row'> */}
+     
+       {/* <div class='col-md-6'> */}
+         <img src='./slide.png' class="d-block w-100 slide_img"></img>
+         <div class="carousel-caption ">
+    <h1 className='text-dark slide_mobile '>Spicy delicious chicken wings</h1>
+    
+  </div>
+       {/* </div> */}
+     </div>
+         {/* </div> */}
+         <div class="carousel-item  caro_item active" data-bs-interval="2000">
+     
+     {/* <div class='row home_row'> */}
+     
+       {/* <div class='col-md-6'> */}
+         <img src='./slide.png' class="d-block w-100 slide_img"></img>
+         <div class="carousel-caption ">
+    <h1 className='text-dark slide_mobile '>Spicy delicious chicken wings</h1>
+    
+  </div>
+       {/* </div> */}
+     </div>
+     <div class="carousel-item  caro_item active" data-bs-interval="2000">
+     
+     {/* <div class='row home_row'> */}
+     
+       {/* <div class='col-md-6'> */}
+         <img src='./slide.png' class="d-block w-100 slide_img"></img>
+         <div class="carousel-caption ">
+    <h1 className='text-dark slide_mobile '>Spicy delicious chicken wings</h1>
+    
+  </div>
+       {/* </div> */}
+     </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+   </div>
+  </div>
    <Category/>
    <Racipes_category/>
    <div className='container-fluid'>
     <div className='poster_chef'>
     <div class='row home_row'>
-        <div class='col-md-5 '>
-        <div class='hero_left'>
+        <div class='col-md-6 '>
+        <div class='hero_left poster_left'>
          
           <div class='hero_title'>
           Everyone can be a
@@ -209,7 +262,7 @@ chef in their own kitchen
           
         </div>
         </div>
-        <div class='col-md-7 '>
+        <div class='col-md-6 '>
           <img src='./chef.png' className='chef'></img>
         </div>
       </div>

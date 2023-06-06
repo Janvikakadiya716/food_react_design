@@ -22,6 +22,7 @@ body {
 .nav-link {
   font-size: 16px !important;
   color: var(--black-text--) !important;
+  font-weight: bold !important;
 }
 .nav-link:hover {
   color: rgb(148, 148, 148) !important;
@@ -38,7 +39,7 @@ body {
 
 /* home-page */
 .home {
-  padding: 20px;
+  /* padding: 20px; */
 }
 .home_row {
   background-color: var(--sky-blue--);
@@ -145,8 +146,10 @@ margin-top:0px !important;
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  filter: invert(80%) grayscale(100%);
+  /* filter: invert(80%) grayscale(100%); */
+  color: transparent;
 }
+
 .caro_item {
   border-radius: 30px; /* Adjust the value as per your preference */
   overflow: hidden; /* Ensures the content within the slide doesn't overflow */
@@ -186,9 +189,19 @@ margin-top:0px !important;
     padding: 10px 10px 10px 10px;
     margin-top:20px !important;
   }
+  
+  .racipes_title {
+    font-size: 18px !important;
+    font-weight: 600 ;
+    padding: 15px !important;
+}
   .category{
-    padding-top: 20px !important;
+    padding-top: 47px !important;
   }
+  .r_c_info {
+    text-align: center;
+    margin-top: 55px !important;
+}
   .inbox_space{
     white-space: normal !important;
   }
@@ -199,17 +212,26 @@ margin-top:0px !important;
     display:block;
     text-align: center;
   }
+  .mobile_view_home{
+    display: block !important;
+  }
+  .home{
+    display: none;
+  }
   .view_instagram{
     margin-top:0px !important;
   }
   .category_title {
-    font-size: 30px;
+    font-size:24px;
     /* Line-height: 38px; */
   }
   .hero_title {
     margin-top: 25px;
-    font-size: 40px;
+    font-size: 30px;
     /* Line-height: 50px; */
+  }
+  .list_name{
+    margin: 30px 0px 30px 0px !important;
   }
   .hero_profile {
     display: none !important;
@@ -224,8 +246,14 @@ margin-top:0px !important;
     margin-bottom: 20px;
   }
   .poster_chef .hero_title {
-    font-size: 39px !important;
-    line-height: 49px !important;
+    font-size: 30px !important;
+  
+  }
+  .poster_chef .video_button{
+    text-align: center !important;
+  }
+  .view_instagram{
+    padding-top: 50px !important;
   }
   .poster_chef .hero_left {
     margin-top: 0px !important;
@@ -244,6 +272,17 @@ margin-top:0px !important;
   }
   .racipe_cate_2 {
     margin-top: 40px !important;
+  }
+  .hero_info{
+    text-align: center !important;
+
+  }
+  .mobile_view_home{
+    margin-top:20px !important;
+  }
+  .hero_title{
+    font-size: 30px !important;
+    text-align: center !important;
   }
   .racipe_cate_2 .hero_info {
     text-align: center;
@@ -366,6 +405,20 @@ margin-top:0px !important;
     /* Line-height: 29px; */
     margin-bottom: 20px;
   }
+  .racipe_cate_2 {
+    margin-top: 50px !important;
+}
+  .view_instagram{
+    padding: 0px 0px 20px 0px!important;
+  }
+  .category {
+    justify-content: space-between;
+    padding: 44px 25px 20px 25px !important;
+  }
+  .footer .nav-link {
+    font-size: 12px !important;
+    color: var(--black-text--) !important;
+}
   .r_btn {
     display: inline;
   }
@@ -472,6 +525,7 @@ margin-top:0px !important;
 .racipe_cate_2 .racipes_title {
   font-size: 18px !important;
   line-height: 28px !important;
+  padding:16px !important;
 }
 .racipe_cate_2 .racipes_list {
   background: var(--back-white--) !important;
@@ -545,12 +599,15 @@ button[type='submit']:hover {
   list-style: none;
   margin-top: 20px;
 }
+.mobile_view_home{
+  display: none;
+}
 .footer {
   margin-top: 100px;
   padding: 20px 20px 20px 20px;
 }
 .footer .nav-link {
-  font-size: 16px !important;
+  font-size: 16px ;
   color: var(--black-text--) !important;
 }
 .copy_right {
@@ -583,11 +640,24 @@ button[type='submit']:hover {
 .blog_p_name {
   padding-left: 23px;
 }
+.slide_img{
+  opacity: 0.7;
+}
 /* .blog_info {
   display: flex;
   align-items: center;
 } */
-
+.list:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.slide_mobile{
+  text-align: center;
+  font-size: 30px !important;
+  font-weight: 600;
+  color: var(--grey-text--) !important;
+  padding:10px 10px 60px 10px;
+  
+}
 .vl {
   border-left: 1px solid rgb(142, 143, 142);
   height: 50px;
@@ -646,6 +716,7 @@ button[type='submit']:hover {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0px;
+  border-radius: 40px;
 }
 .bbb-wrapper {
   /* margin-top: 200px; */
@@ -952,7 +1023,14 @@ option {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  /* padding:20px !important; */
 }
 .instagram_view:hover{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.insta_view{
+  padding:15px 20px !important;
+}
+.poster_left{
+  padding:5px !important
 }

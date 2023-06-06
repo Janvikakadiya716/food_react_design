@@ -7,7 +7,7 @@ function Footer() {
         <div className="container-fluid">
           <div className="row footer_info">
             <div className="col-md-6 footer_logo">
-              <img src="./logo.png"></img>
+              <img src="./logo.svg"></img>
               <div className="hero_info">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit,{" "}
               </div>
@@ -51,9 +51,9 @@ function Footer() {
               <span className="text-danger">Webflow</span>
             </div>
             <div className="social_icon d-flex">
-              <img src="./001-facebook.png" alt="Facebook"></img>
-              <img src="./003-twitter.png" alt="Twitter"></img>
-              <img src="./004-instagram.png" alt="Instagram"></img>
+              <img src="./001-facebook.svg" alt="Facebook"></img>
+              <img src="./003-twitter.svg" alt="Twitter"></img>
+              <img src="./004-instagram.svg" alt="Instagram"></img>
             </div>
           </div>
         </div>
