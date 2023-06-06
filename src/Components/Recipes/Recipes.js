@@ -13,7 +13,7 @@ function Recipes() {
             Health Japanese Fried Rice
             </div>
             <div className='container-fluid rice_p '>
-  {/* <div className='row'>
+  <div className='row'>
     <div className='col-md-3'>
       <div className='rice_profile d-flex mt-3'>
         <img src='./video.png'></img>
@@ -63,7 +63,7 @@ function Recipes() {
         </div>
       </div>
     </div>
-  </div> */}
+  </div>
 </div>
 
           </div>

@@ -47,12 +47,12 @@ function Racipe_cate_2() {
                 <div className='racipes_title'>
                   {recipe.title}
                 </div>
-                <div className='hero_button r_btn'>
-                  <button className='letter_button racipes_button'>
+                <div className='d-flex '>
+                  <button className='d-flex cate_r_2'>
                     <img src='./Timer.png' alt='Timer' />
                     <div className='button_title'>30 Minutes</div>
                   </button>
-                  <button className='letter_button racipes_button'>
+                  <button className='d-flex cate_r_2'>
                     <img src='./ForkKnife.png' alt='Fork and Knife' />
                     <div className='button_title'>Chicken</div>
                   </button>

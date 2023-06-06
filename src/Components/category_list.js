@@ -1,51 +1,51 @@
 const categorylist = [
     {
-        title: 'Meat',
+        title: 'Breakfast',
         id: 1,
         image: './21.png',
         style: {
-          background: 'linear-gradient(rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)'
+          background: 'linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)'
         }
       },
     {
-      title: 'Cake',
+      title: 'Vegan',
       id: 2,
       image: './22.png',
       style:{
-        background: 'linear-gradient(rgba(108, 198, 63, 0)  0%,rgba(108, 198, 63, 0.1)  100%)'
+        background: 'linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)'
       }
     },
     {
-        title: 'Lunch',
+        title: 'Meat',
         id: 3,
         image: './23.png',
         style:{
-            background:' linear-gradient(rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)'
+            background:' linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)'
 
         }
       },
       {
-        title: 'Choklate',
+        title: 'Dessert',
         id: 4,
         image: './24.png',
         style:{
-            background:'linear-gradient(rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.05) 100%)'
+            background:'linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)'
         }
       },
       {
-        title: 'breakfast',
+        title: 'Lunch',
         id: 5,
         image: './25.png',
         style:{
-            background:'linear-gradient(rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.05) 100%)'
+            background:' linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)'
         }
       },
       {
-        title: 'Dessert',
+        title: 'Chocolate',
         id: 6,
-        image: './22.png',
+        image: './26.png',
         style:{
-            background:' linear-gradient(rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)'
+            background:'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)'
 
         }
       }

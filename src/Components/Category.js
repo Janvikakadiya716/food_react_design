@@ -4,7 +4,7 @@ import categorylist from './category_list';
 function Category() {
   return (
     <div className='container-fluid'>
-      <div className="category d-flex">
+      <div className="category ">
         <div className="category_title">
           Categories
         </div>

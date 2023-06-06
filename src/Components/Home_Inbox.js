@@ -8,7 +8,7 @@ function Home_Inbox() {
    <div class="bbb-wrapper fl-wrap">
       <div class="subcribe-form fl-wrap">
       <div className='category_title'>Deliciousness to your inbox</div>
-                        <p class="text-center">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim 
+                        <p class="text-center inbox_space">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor<br></br> incididunt ut labore et dolore magna aliqut enim ad minim 
                             
                         </p>
                         <form id="subscribe" novalidate="true">

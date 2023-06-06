@@ -29,8 +29,8 @@ function Racipes_category() {
                   </div>
                   <div className='hero_button r_btn'>
                     <button className='letter_button racipes_button'>
-                      <img src='./Timer.png' alt='Timer' />
-                      <div className='button_title'>30 Minutes</div>
+                      <img src='./Timer.png' alt='Timer' className='' />
+                      <div className='button_title '>30 Minutes</div>
                     </button>
                     <button className='letter_button racipes_button'>
                       <img src='./ForkKnife.png' alt='Fork and Knife' />

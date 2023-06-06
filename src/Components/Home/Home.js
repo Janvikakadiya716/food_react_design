@@ -13,7 +13,7 @@ function Home() {
    <div className='container-fluid'>
    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="2000">
+    <div class="carousel-item  caro_item active" data-bs-interval="2000">
      
       <div class='row home_row'>
         <div class='col-md-6 '>
@@ -21,7 +21,7 @@ function Home() {
           <div class='btn'>
           <button class='letter_button'>
           <img src='./letter.png'/>
-         <div class='button_title' > Hot Recipes </div></button>
+         <div class='button_title home_timer_btn' > Hot Recipes </div></button>
 
           </div>
           <div class='hero_title'>
@@ -30,15 +30,15 @@ function Home() {
           <div class='hero_info'>
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim 
           </div>
-          <div class='hero_button'>
-          <button class='letter_button l_btn'>
+          <div class='hero_button '>
+          <button class='letter_button '>
           <img src='./Timer.png'/>
-         <div class='button_title' > 30 Minutes 
+         <div class='button_title ' > 30 Minutes 
          </div>
          </button>
          <button class='letter_button'>
           <img src='./ForkKnife.png'/>
-         <div class='button_title' >Chicken </div></button>
+         <div class='button_title ' >Chicken </div></button>
           </div>
           <div class='hero_profile d-flex'>
           <div className='profile d-flex'>
@@ -56,7 +56,7 @@ function Home() {
             </div>
             <div class='video_button'>
               <button class='view_btn'>
-              View Recipes <img src='./man.png'></img>
+              View Recipes <img src='./man.png' className='mx-2'></img>
               </button>
             </div>
           </div>
@@ -67,14 +67,14 @@ function Home() {
         </div>
       </div>
          </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item  caro_item " data-bs-interval="2000">
     <div class='row home_row'>
         <div class='col-md-6 '>
         <div class='hero_left'>
           <div class='btn'>
           <button class='letter_button '>
           <img src='./letter.png'/>
-         <div class='button_title' > Hot Recipes </div></button>
+         <div class='button_title home_timer_btn' > Hot Recipes </div></button>
 
           </div>
           <div class='hero_title'>
@@ -118,14 +118,14 @@ function Home() {
         </div>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item  caro_item">
     <div class='row home_row'>
         <div class='col-md-6 '>
         <div class='hero_left'>
           <div class='btn'>
           <button class='letter_button l_btn'>
           <img src='./letter.png'/>
-         <div class='button_title' > Hot Recipes </div></button>
+         <div class='button_title home_timer_btn' > Hot Recipes </div></button>
 
           </div>
           <div class='hero_title'>
