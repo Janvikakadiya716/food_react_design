@@ -4,8 +4,8 @@ function Home_Inbox() {
   return (
     <>
      <div class='container-fluid'>
-    <div class='container-fluid inbox'>
-   <div class="bbb-wrapper fl-wrap">
+   
+   <div class="bbb-wrapper fl-wrap inbox">
       <div class="subcribe-form fl-wrap">
       <div className='category_title'>Deliciousness to your inbox</div>
                         <p class="text-center inbox_space">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor<br></br> incididunt ut labore et dolore magna aliqut enim ad minim 
@@ -19,7 +19,7 @@ function Home_Inbox() {
                     </div>
                 </div>
   </div>
-  </div>
+  
     </>
   )
 }

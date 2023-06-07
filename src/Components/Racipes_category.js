@@ -21,7 +21,13 @@ function Racipes_category() {
                 </div>
                 <img src={recipe.img} className='recipe_image' alt={recipe.title} />
                 <div className='racipes_title'>
-                  {recipe.title}
+                  {recipe.title.length <= 35 ? (
+                    recipe.title // Display full title if it's less than or equal to 35 characters
+                  ) : (
+                    <>
+                      {recipe.title.slice(0, 35)}... {/* Display truncated title with ellipsis */}
+                    </>
+                  )}
                 </div>
                 <div className='hero_button r_btn'>
                   <button className='letter_button racipes_button'>

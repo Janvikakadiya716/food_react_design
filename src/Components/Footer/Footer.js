@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <div>
@@ -45,13 +46,13 @@ function Footer() {
             </div>
           </div>
           <hr></hr>
-          <div className="copy_right mt-5 d-flex">
-            <div className="year text-center flex-grow-1">
+          <div className="copy_right">
+            <div className="year ">
               © 2020 Flowbase. Powered by{" "}
-              <span className="text-danger">Webflow</span>
+              <span className="text-danger ">Webflow</span>
             </div>
-            <div className="social_icon d-flex">
-              <img src="./001-facebook.svg" alt="Facebook"></img>
+            <div className="social_icon d-flex ">
+              <img src="./001-facebook.svg" alt="Facebook" ></img>
               <img src="./003-twitter.svg" alt="Twitter"></img>
               <img src="./004-instagram.svg" alt="Instagram"></img>
             </div>

@@ -45,7 +45,13 @@ function Racipe_cate_2() {
                 </div>
                 <img src={recipe.img} className='recipe_image' alt={recipe.title} />
                 <div className='racipes_title'>
-                  {recipe.title}
+                  {recipe.title.length <= 35 ? (
+                    recipe.title 
+                  ) : (
+                    <>
+                      {recipe.title.slice(0, 35)}... 
+                    </>
+                  )}
                 </div>
                 <div className='d-flex '>
                   <button className='d-flex cate_r_2'>
