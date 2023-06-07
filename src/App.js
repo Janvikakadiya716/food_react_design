@@ -6,12 +6,13 @@ import Blog from './Components/Blog/Blog';
 import NavBar from './Components/NavBar';
 import Contact from './Components/Contact/Contact';
 import About from './About/About';
+
 function App() {
   return (
     <Router>
-      <NavBar/> {/* Include the NavBar component */}
+      <NavBar />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />

@@ -1,30 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../App.css';
 
 function NavBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <div className='container-fluid'>
-      <nav className="navbar navbar-expand-lg navbar-light">
+    <div className='container-fluid navbar_toggle'>
+      <nav className={`navbar navbar-expand-lg navbar-light ${isMenuOpen ? 'active' : ''}`}>
         <div className="container-fluid">
-          <NavLink to="/home" className="navbar-brand logo mx-2">
+          <NavLink to="/" className="navbar-brand logo mx-2">
             <img src='./logo.svg' alt="Logo" />
           </NavLink>
           <button
-            className="navbar-toggler"
+            className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            onClick={toggleMenu}
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink exact to="/home" className="nav-link mx-3" activeClassName="active">
+                <NavLink exact to="/" className="nav-link mx-3" activeClassName="active">
                   Home
                 </NavLink>
               </li>
