@@ -37,7 +37,7 @@ function View_Instagram() {
           Check out @foodieland on Instagram
         </div>
         <div className='hero_info text-center'>
-          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br></br>incididunt ut labore et dolore magna aliqut enim ad minim
+          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
         </div>
 
         <div className='container-fluid'>
@@ -330,7 +330,7 @@ function View_Instagram() {
     </div>
     <div class='video_button instagram_btn'>
               <button class='view_btn insta_view'>
-              Visit Our Instagram <img src='./white_instagram.png ' className='p-2'/>
+              Visit Our Instagram <img src='./white_instagram.png ' className='p-2'></img>
               </button>
             </div>
     
