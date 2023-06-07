@@ -1045,3 +1045,7 @@ option {
   padding: 10px !important;
   margin-bottom: 10px;
 }
+.Slides_img{
+  width: 100%;
+  height:auto;
+}
