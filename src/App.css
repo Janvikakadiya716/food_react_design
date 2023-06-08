@@ -15,9 +15,7 @@ body {
 
 /* navbar */
 .logo {
-  font-size: 24px;
-  font-family: Lobster, sans-serif;
-  height: 36px;
+  height: 30px;
 }
 .nav-link {
   font-size: 16px !important;
@@ -26,20 +24,10 @@ body {
 }
 .nav-link:hover {
   color: rgb(148, 148, 148) !important;
-  /* padding:90px 0px 90px 0px; */
 }
-
 .navbar-light .navbar-nav .nav-link {
   color: black;
   padding: 10px !important;
-}
-.navbar {
-  margin-top: 20px;
-}
-
-/* home-page */
-.home {
-  /* padding: 20px; */
 }
 .home_row {
   background-color: var(--sky-blue--);
@@ -51,24 +39,18 @@ body {
   padding: 11px 20px 10px 20px;
   border: none;
   display: flex;
-  
-  /* margin-top: 50px; */
-  /* justify-content: space-around; */
 }
 .button_title {
   font-size: 14px;
-  /* line-height: 17px; */
   color: var(--grey-text--);
   padding-left: 13px;
   padding-top: 2px;
   font-weight: 500;
-  
 }
-.black_logo{
+.black_logo {
   width: 32px;
-    height: 33px;
-    margin-top: 11px;
-
+  height: 33px;
+  margin-top: 11px;
 }
 .hero_title {
   margin-top: 32px;
@@ -81,8 +63,8 @@ body {
   font-weight: 600 !important;
   color: var(--black-text--) !important;
 }
-.r_btn{
-margin-top:0px !important;
+.r_btn {
+  margin-top: 0px !important;
 }
 .hero_left {
   padding: 50px 50px 50px 50px;
@@ -106,13 +88,16 @@ margin-top:0px !important;
   font-weight: 700;
   color: var(--black-text--);
 }
-.cate_r_2{
-  background-color: transparent;
-  border:none;
+.right{
+  display: none;
 }
-.cate_r_2:hover{
+.cate_r_2 {
+  background-color: transparent;
+  border: none;
+}
+.cate_r_2:hover {
   background-color: var(--grey-back);
-  border:none;
+  border: none;
 }
 .profile_info .date,
 .blog_p_date {
@@ -146,13 +131,13 @@ margin-top:0px !important;
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  /* filter: invert(80%) grayscale(100%); */
+  filter: invert(80%) grayscale(100%);
   color: transparent;
 }
 
 .caro_item {
-  border-radius: 30px; /* Adjust the value as per your preference */
-  overflow: hidden; /* Ensures the content within the slide doesn't overflow */
+  border-radius: 30px;
+  overflow: hidden; 
 }
 
 /* category */
@@ -161,8 +146,8 @@ margin-top:0px !important;
   font-weight: 600;
   color: var(--black-text--);
 }
-.category{
-  display:flex;
+.category {
+  display: flex;
 }
 .category_btn {
   background-color: var(--sky-blue--);
@@ -180,160 +165,20 @@ margin-top:0px !important;
   justify-content: space-between;
   padding: 100px 25px 20px 25px;
 }
-.learn{
-  padding:21px 52px 21px 52px !important;
+.learn {
+  padding: 21px 52px 21px 52px !important;
   font-weight: 600 !important;
 }
-@media screen and (min-width: 320px) and (max-width: 576px) {
-  .category_btn {
-    padding: 10px 10px 10px 10px;
-    margin-top:20px !important;
-  }
-  .navbar {
-    margin-top: 0px !important;
-  }
-  .navbar-light .navbar-brand {
-    margin-bottom: 10px !important;
-  }
-  .racipes_title {
-    font-size: 18px !important;
-    font-weight: 600 ;
-    padding: 15px !important;
+.list_img{
+  width: auto !important;
 }
-  .category{
-    padding-top: 47px !important;
-  }
-  .r_c_info {
-    text-align: center;
-    margin-top: 55px !important;
+/* .owl-carousel .owl-item img {
+  width: unset !important;
+} */
+.footer_logo{
+  height: 30px;
 }
-  .inbox_space{
-    white-space: normal !important;
-  }
-  .bbb-wrapper .subcribe-form p{
-    margin:10px !important;
-  }
-  .category{
-    display:block;
-    text-align: center;
-  }
-  .mobile_view_home{
-    display: block !important;
-  }
-  .hero_slider{
-    display: none;
-  }
-  .view_instagram{
-    margin-top:0px !important;
-  }
-  .category_title {
-    font-size:24px;
-    /* Line-height: 38px; */
-  }
-  .hero_title {
-    margin-top: 25px;
-    font-size: 30px;
-    /* Line-height: 50px; */
-  }
-  .list_name{
-    margin: 30px 0px 30px 0px !important;
-  }
-  .hero_profile {
-    display: none !important;
-  }
-  .hero_button {
-    display: block;
-  }
-  .r_btn{
-    display: flex !important;
-  }
-  .l_btn {
-    margin-bottom: 20px;
-  }
-  .poster_chef .hero_title {
-    font-size: 30px !important;
-  
-  }
-  .poster_chef .video_button{
-    text-align: center !important;
-  }
-  .view_instagram{
-    padding-top: 50px !important;
-  }
-  .poster_chef .hero_left {
-    margin-top: 0px !important;
-  }
-  .poster_chef {
-    margin-top: 0px !important;
-  }
-  .racipe_cate_2 .button_title {
-    font-size: 12px !important;
-  }
-  .button_title {
-    font-size: 12px !important;
-  }
-  .recipe_image_1 {
-    background-color: #aaacb1 !important;
-  }
-  .racipe_cate_2 {
-    margin-top: 40px !important;
-  }
-  .hero_info{
-    text-align: center !important;
 
-  }
-
-  .mobile_view_home{
-    margin-top:20px !important;
-  }
-  .hero_title{
-    font-size: 30px !important;
-    text-align: center !important;
-  }
-  .racipe_cate_2 .hero_info {
-    text-align: center;
-  }
-  .racipe_cate_2 .category_title {
-    padding: 10px 20px 0px 20px !important;
-    text-align: center;
-  }
-  .footer .nav-link {
-    font-size: 10px !important;
-    margin-left: -3pc;
-  }
-  .footer_logo{
-    text-align: center;
-  }
-  .footer_menu{
-    display: none !important;
-  }
-  .blog_p_name {
-    padding-left: 10px !important;
-  }
-  .blog_p_date {
-    padding-left: 10px !important;
-  }
-  .vl {
-    margin-left: 1pc !important;
-  }
-  .inbox .category_title {
-    margin-top: 0px !important;
-  }
-  .bbb-wrapper .subcribe-form #subscribe input {
-    font-size: 12px;
-    padding: 22px 30px 22px 10px !important;
-  }
-  .bbb-wrapper .subcribe-form #subscribe #subscribe-button {
-    margin: 11px 0px 2px 1px !important;
-    padding: 10px 10px 10px 10px !important;
-  }
- 
-  .recipe_rice .category_title {
-    font-size: 45px !important;
-    /* line-height: 55px !important; */
-    text-align: center;
-  }
-}
 .list {
   padding: 10px 20px 10px 20px;
   margin-top: 50px;
@@ -350,30 +195,7 @@ margin-top:0px !important;
   margin: 50px 0px 30px 0px;
   font-weight: 600;
 }
-.list_5 {
-  background: linear-gradient(
-    rgba(112, 130, 70, 0) 0%,
-    rgba(112, 130, 70, 0.1) 100%
-  );
-}
-.list_2 {
-  background: linear-gradient(
-    rgba(108, 198, 63, 0) 0%,
-    rgba(108, 198, 63, 0.1) 100%
-  );
-}
-.list_3 {
-  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
-}
-.list_4 {
-  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
-}
-.list_6 {
-  background: linear-gradient(
-    rgba(108, 198, 63, 0) 0%,
-    rgba(108, 198, 63, 0.1) 100%
-  );
-}
+
 /* racipes category */
 .r_c_info {
   text-align: center;
@@ -390,7 +212,7 @@ margin-top:0px !important;
   font-size: 24px;
   font-weight: 600;
   padding-bottom: px;
-  padding:24px;
+  padding: 24px;
 }
 .racipes_button {
   background-color: transparent !important;
@@ -406,14 +228,13 @@ margin-top:0px !important;
 @media screen and (min-width: 768px) and (max-width: 992.98px) {
   .racipes_title {
     font-size: 16px;
-    /* Line-height: 29px; */
     margin-bottom: 20px;
   }
   .racipe_cate_2 {
     margin-top: 50px !important;
-}
-  .view_instagram{
-    padding: 0px 0px 20px 0px!important;
+  }
+  .view_instagram {
+    padding: 0px 0px 20px 0px !important;
   }
   .category {
     justify-content: space-between;
@@ -422,24 +243,27 @@ margin-top:0px !important;
   .footer .nav-link {
     font-size: 12px !important;
     color: var(--black-text--) !important;
-}
+  }
   .r_btn {
     display: inline;
   }
+ .hero_slider .hero_left{
+  padding: 10px !important;
+  }
+  .hero_slider .hero_info{
+    display: none !important;
+  }
   .category_title {
     font-size: 28px;
-    /* Line-height: 38px; */
   }
   .hero_title {
     font-size: 40px;
-    /* Line-height: 50px; */
   }
   .hero_profile {
     display: none !important;
   }
   .poster_chef .hero_title {
     font-size: 32px !important;
-    /* line-height: 45px !important; */
     margin: 0px !important;
   }
   .poster_chef .hero_left {
@@ -530,7 +354,7 @@ margin-top:0px !important;
 .racipe_cate_2 .racipes_title {
   font-size: 18px !important;
   line-height: 28px !important;
-  padding:16px !important;
+  padding: 16px !important;
 }
 .racipe_cate_2 .racipes_list {
   background: var(--back-white--) !important;
@@ -553,7 +377,7 @@ margin-top:0px !important;
 .img_inbox {
   max-width: 100%;
   height: auto;
-  /* padding:50px 10px 10px 10px; */
+
 }
 
 /* footer */
@@ -563,20 +387,18 @@ margin-top:0px !important;
   list-style: none;
   margin-top: 20px;
 }
-.mobile_view_home{
+.mobile_view_home {
   display: none;
 }
 
-
 .footer .nav-link {
-  font-size: 16px ;
+  font-size: 16px;
   color: var(--black-text--) !important;
 }
 .copy_right {
-position: relative;
+  position: relative;
   align-items: center;
 }
-
 
 .year {
   text-align: center;
@@ -584,7 +406,7 @@ position: relative;
 
 .social_icon {
   float: right;
-  gap: 20px; /* Adjust the gap between social icons as needed */
+  gap: 20px; 
   position: absolute;
   right: 0;
   bottom: 0;
@@ -604,20 +426,19 @@ position: relative;
 .blog_p_name {
   padding-left: 23px;
 }
-.slide_img{
+.slide_img {
   opacity: 0.7;
 }
 
-.list:hover{
+.list:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.slide_mobile{
+.slide_mobile {
   text-align: center;
   font-size: 30px !important;
   font-weight: 600;
   color: var(--grey-text--) !important;
-  padding:10px 10px 60px 10px;
-  
+  padding: 10px 10px 60px 10px;
 }
 .vl {
   border-left: 1px solid rgb(142, 143, 142);
@@ -640,13 +461,11 @@ position: relative;
 }
 .blog_que {
   font-size: 24px;
-  /* Line-height: 29px; */
   font-weight: bold;
   margin-top: 80px;
 }
 .blog_ans {
   font-size: 16px;
-  /* Line-height: 28px; */
   margin-top: 24px;
 }
 .ans_box {
@@ -655,20 +474,20 @@ position: relative;
 }
 .ans_box h1 {
   font-size: 30px;
-  /* Line-height: 40px; */
   font-style: italic;
   padding: 48px 40px 48px 40px;
 }
 .blog_social_icon {
   font-size: 14px;
-  /* Line-height: 17px; */
   font-weight: bold;
   margin-top: 80px;
 }
 .b {
   text-align: center;
 }
-
+.first_slide{
+  background-size: cover;
+}
 .inbox {
   background-image: url(./Components/p5.png);
   background-repeat: no-repeat;
@@ -682,13 +501,11 @@ position: relative;
   position: relative;
   text-align: center;
 }
-.footer{
-  padding:10px;
+.footer {
+  padding: 10px;
 }
 
-
 .bbb-wrapper {
-  /* margin-top: 200px; */
 }
 .fl-wrap {
   float: left;
@@ -697,7 +514,7 @@ position: relative;
 }
 
 .bbb-wrapper .subcribe-form p {
- color: var(--grey-text--);
+  color: var(--grey-text--);
   font-size: 16px;
   font-weight: 400;
   margin: 32px;
@@ -711,7 +528,6 @@ position: relative;
 
 .bbb-wrapper .subcribe-form #subscribe input {
   width: 100%;
-  /* height: 48px; */
   background: #fff;
   border: none;
   outline: none;
@@ -721,7 +537,6 @@ position: relative;
 }
 
 .bbb-wrapper .subcribe-form #subscribe #subscribe-button {
-  /* height: 38px; */
   margin: 10px;
   padding: 10px 30px 10px 30px;
   border-radius: 16px;
@@ -731,7 +546,6 @@ position: relative;
   top: 6px;
   font-size: 11px;
   color: #fff;
-  /* cursor: pointer; */
 }
 
 .subscribe-message {
@@ -740,7 +554,6 @@ position: relative;
   margin-top: 10px;
   text-align: left;
   font-weight: 500;
-  /* line-height: 19px; */
 }
 
 .color-bg {
@@ -758,12 +571,10 @@ position: relative;
 /* rice_racipe */
 .rice_profile .name {
   font-size: 16px;
-  /* Line-height: 19px; */
   font-weight: bold;
 }
 .rice_profile .date {
   font-size: 14px;
-  /* Line-height: 17px; */
   color: var(--grey-text--);
   padding-top: 5px;
 }
@@ -781,15 +592,8 @@ position: relative;
 }
 .recipe_rice .category_title {
   font-size: 60px;
-  /* line-height: 70px; */
   padding: 30px;
 }
-/* .rice_profile:hover{
-  background-color: var(--sky-blue--);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 5px;
-  border-radius: 10px;
-} */
 .tablate_view {
   display: none;
 }
@@ -807,7 +611,6 @@ position: relative;
 }
 .rice_p_title {
   font-size: 24px;
-  /* Line-height: 29px; */
   font-weight: bold;
   padding-bottom: 15px;
 }
@@ -815,16 +618,13 @@ position: relative;
   padding: 32px;
   background-color: var(--sky-blue--);
   border-radius: 30px;
-  /* margin-bottom: 50px; */
 }
 .rice_category_title {
   font-size: 18px;
-  /* Line-height: 22px; */
   color: var(--grey-text--);
 }
 .rice_category_info {
   font-size: 18px;
-  /* Line-height: 22px; */
   color: var(--black-text--);
   font-weight: bold;
 }
@@ -833,7 +633,6 @@ iframe {
 }
 .other_title {
   font-size: 36px;
-  /* Line-height: 44px; */
   font-weight: bold;
 }
 .rice_other {
@@ -841,7 +640,6 @@ iframe {
 }
 .rice_radio_title {
   font-size: 18px;
-  /* Line-height: 22px; */
   color: var(--black-text--);
   padding: 33px;
 }
@@ -851,22 +649,17 @@ iframe {
   cursor: pointer;
 }
 
-.rice_radio_label input[type="radio"] {
-  /* display: none; */
-}
-
 .rice_radio_label span.rice_radio_title {
   margin-left: 8px;
 }
 
-.rice_radio_label input[type="radio"]:checked + span.rice_radio_title {
+.rice_radio_label input[type='radio']:checked + span.rice_radio_title {
   color: black;
   font-weight: bold;
 }
 
-.rice_radio_label input[type="radio"]:checked::before {
-  content: "\2713";
-  /* display: inline-block; */
+.rice_radio_label input[type='radio']:checked::before {
+  content: '\2713';
   width: 12px;
   height: 1px;
   border-radius: 50%;
@@ -874,18 +667,15 @@ iframe {
   margin-right: 8px;
   padding: 7px 10px 7px 10px;
   text-align: center;
-  /* line-height: 10px; */
   color: white;
   margin-left: -3px;
 }
 .other_img_info h4 {
   font-size: 20px;
-  /* Line-height: 28px; */
   font-weight: bold;
 }
 .other_img_info p {
   font-size: 14px;
-  /* Line-height: 17px; */
   color: var(--grey-text--);
 }
 .other_img_info {
@@ -905,7 +695,6 @@ iframe {
 }
 .form-card label {
   font-size: 12px;
-  /* Line-height: 20px; */
   letter-spacing: 12%;
   padding: 10px;
   color: var(--grey-text--);
@@ -929,7 +718,6 @@ textarea:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  /* border: 1px solid #a1a2a3; */
   outline-width: 0;
   font-weight: 400;
 }
@@ -945,25 +733,18 @@ button:focus {
 ::placeholder,
 option {
   font-size: 14px;
-  /* Line-height: 24px; */
 }
 .contact {
   padding: 50px;
 }
 .Foodieland {
   justify-content: space-between;
-
   padding: 10px;
   border-radius: 3px;
-  /* width:80%; */
-}
-.foodie {
 }
 .food_title {
   font-size: 14px;
-  /* Line-height: 17px; */
   font-weight: bold;
-  /* padding:5px */
 }
 .food_info {
   font-size: 12px;
@@ -992,23 +773,184 @@ option {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  /* padding:20px !important; */
 }
-.instagram_view:hover{
+.instagram_view:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.insta_view{
-  padding:15px 20px !important;
+.insta_view {
+  padding: 15px 20px !important;
 }
-.poster_left{
-  padding:5px !important
+.poster_left {
+  padding: 5px !important;
 }
-.navbar_toggle{
+.navbar_toggle {
   background-color: var(--white--) !important;
   padding: 10px !important;
   margin-bottom: 10px;
 }
-.Slides_img{
+.Slides_img {
   width: 100%;
-  height:auto;
+  height: auto;
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .category_btn {
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px !important;
+  }
+  .navbar {
+    margin-top: 0px !important;
+  }
+  .navbar-light .navbar-brand {
+    margin-bottom: 10px !important;
+  }
+  .racipes_title {
+    font-size: 18px !important;
+    font-weight: 600;
+    padding: 15px !important;
+  }
+  .category {
+    padding-top: 47px !important;
+  }
+  .r_c_info {
+    text-align: center;
+    margin-top: 55px !important;
+  }
+  .inbox_space {
+    white-space: normal !important;
+  }
+  .bbb-wrapper .subcribe-form p {
+    margin: 10px !important;
+  }
+  .category {
+    display: block;
+    text-align: center;
+  }
+  .mobile_view_home {
+    display: block !important;
+  }
+  .hero_slider {
+    display: none;
+  }
+  .view_instagram {
+    margin-top: 0px !important;
+  }
+  .category_title {
+    font-size: 24px;
+  }
+  .hero_title {
+    margin-top: 25px;
+    font-size: 30px;
+  }
+  .list_name {
+    margin: 30px 0px 30px 0px !important;
+  }
+  .hero_profile {
+    display: none !important;
+  }
+  .hero_button {
+    display: block;
+  }
+  .r_btn {
+    display: flex !important;
+  }
+  .l_btn {
+    margin-bottom: 20px;
+  }
+  .poster_chef .hero_title {
+    font-size: 30px !important;
+  }
+  .poster_chef .video_button {
+    text-align: center !important;
+  }
+  .view_instagram {
+    padding-top: 50px !important;
+  }
+  .poster_chef .hero_left {
+    margin-top: 0px !important;
+  }
+  .poster_chef {
+    margin-top: 0px !important;
+  }
+  .racipe_cate_2 .button_title {
+    font-size: 12px !important;
+  }
+  .button_title {
+    font-size: 12px !important;
+  }
+  .recipe_image_1 {
+    background-color: #aaacb1 !important;
+  }
+  .racipe_cate_2 {
+    margin-top: 40px !important;
+  }
+  .hero_info {
+    text-align: center !important;
+  }
+
+  .mobile_view_home {
+    margin-top: 20px !important;
+  }
+  .hero_title {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  .racipe_cate_2 .hero_info {
+    text-align: center;
+  }
+  .racipe_cate_2 .category_title {
+    padding: 10px 20px 0px 20px !important;
+    text-align: center;
+  }
+  .footer_logo {
+    text-align: center;
+  }
+  .footer_menu {
+    display: none !important;
+  }
+  .blog_p_name {
+    padding-left: 10px !important;
+  }
+  .blog_p_date {
+    padding-left: 10px !important;
+  }
+  .vl {
+    margin-left: 1pc !important;
+  }
+  .inbox .category_title {
+    margin-top: 0px !important;
+  }
+  .bbb-wrapper .subcribe-form #subscribe input {
+    font-size: 12px;
+    padding: 22px 30px 22px 10px !important;
+  }
+  .bbb-wrapper .subcribe-form #subscribe #subscribe-button {
+    margin: 11px 0px 2px 1px !important;
+    padding: 10px 10px 10px 10px !important;
+  }
+.recipe_rice .category_title {
+    font-size: 45px !important;
+    text-align: center;
+  }
+  .right{
+    display: block !important;
+  }
+  .copy_right{
+    display: none;
+  }
+  .social{
+    gap:10px !important;
+  }
+  .logo_footer{
+    text-align: center;
+  }
+  .owl-carousel-wrapper {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  
+}
+
