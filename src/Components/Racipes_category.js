@@ -14,7 +14,7 @@ function Racipes_category() {
       <div className="racipes_category">
         <div className="row">
           {racipe_list.map((recipe) => (
-            <div className="col-md-4 col-sm-4" key={recipe.id}>
+            <div className="col-md-4  col-sm-1" key={recipe.id}>
               <div className="racipes_list">
                 <div className="wish-list-button">
                   <img src="./Heart.png" alt="Heart" />
@@ -26,7 +26,7 @@ function Racipes_category() {
                 />
                 <div className="racipes_title">
                   {recipe.title.length <= 35 ? (
-                    recipe.title // Display full title if it's less than or equal to 35 characters
+                    recipe.title 
                   ) : (
                     <>
                       {recipe.title.slice(0, 35)}...{' '}

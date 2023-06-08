@@ -123,18 +123,48 @@ body {
 }
 .hero_button .letter_button {
   background-color: var(--grey-back);
-  margin-right: 2pc;
+  margin-right: 1pc !important;
 }
 .letter_button:hover {
   background-color: white !important;
 }
 
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(80%) grayscale(100%);
   color: transparent;
+} */
+.carousel-control-prev-icon {
+  /* Set initial size */
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+
+  /* transition: transform 0.7s ease-in-out; */
 }
 
+.carousel-control-prev:hover .carousel-control-prev-icon {
+  /* Apply zoom-in effect on hover */
+  /* transform: scale(1.5); */
+
+  background-color: white; /* Change the background color on hover */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-control-next-icon {
+  /* Set initial size */
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-color: transparent;
+ transition: transform 0.7s ease-in-out;
+}
+
+.carousel-control-next:hover .carousel-control-next-icon {
+  /* Apply zoom-in effect on hover */
+  transform: scale(1.5);
+}
 .caro_item {
   border-radius: 30px;
   overflow: hidden; 
@@ -228,10 +258,38 @@ body {
 @media screen and (min-width: 768px) and (max-width: 992.98px) {
   .racipes_title {
     font-size: 16px;
-    margin-bottom: 20px;
+   
+  }
+  .inbox{
+    margin: 50px 0px 50px 0px !important;
+  }
+  .r_c_info {
+    margin-top: 50px !important;
+}
+  .rice_profile .name {
+    font-size: 14px !important;
+}
+.view_instagram {
+font-size: 12px !important;
+}
+.view_instagram {
+  margin-top:50px !important;
+}
+.profile_video{
+  height: 10vh !important;
+  margin-top: 6px !important;
+}
+.rice_profile .date {
+  font-size: 11px !important;
+}
+  .recipe_rice .category_title{
+    padding: 0px !important;
   }
   .racipe_cate_2 {
     margin-top: 50px !important;
+  }
+  .hero_button .letter_button {
+    margin-right: 1pc !important;
   }
   .view_instagram {
     padding: 0px 0px 20px 0px !important;
@@ -248,7 +306,7 @@ body {
     display: inline;
   }
  .hero_slider .hero_left{
-  padding: 10px !important;
+  padding: 20px !important;
   }
   .hero_slider .hero_info{
     display: none !important;
@@ -263,9 +321,15 @@ body {
     display: none !important;
   }
   .poster_chef .hero_title {
-    font-size: 32px !important;
-    margin: 0px !important;
+    font-size: 30px !important;
+    margin-top: 33px;
   }
+  
+.owl-carousel .owl-item img {
+  display: initial !important;
+  width:auto;
+  
+}
   .poster_chef .hero_left {
     margin-top: 0px !important;
   }
@@ -273,7 +337,7 @@ body {
     display: none !important;
   }
   .racipe_cate_2 .button_title {
-    font-size: 10px !important;
+    font-size: 14px !important;
   }
   .wish-list-button {
     position: absolute;
@@ -496,7 +560,7 @@ body {
   margin: 0;
   border-radius: 40px;
   height: 100%;
-  margin: 80px 0px 80px 0px !important;
+  margin: 80px 0px 80px 0px;
   padding: 30px 30px 30px 30px;
   position: relative;
   text-align: center;
@@ -798,6 +862,9 @@ option {
   .category_btn {
     padding: 10px 10px 10px 10px;
     margin-top: 20px !important;
+  }
+  .hero_button .letter_button{
+    margin-right:0pc !important
   }
   .navbar {
     margin-top: 0px !important;
