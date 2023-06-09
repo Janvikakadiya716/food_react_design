@@ -1,10 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Instagrame from "./Instagrame";
+import Buttons from "./Buttons/Button";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import Instagrame from "./Instagrame";
+import Icon_button from "./Buttons/Icon_button";
 
 function View_Instagram() {
   return (
@@ -50,24 +52,24 @@ function View_Instagram() {
                   items: 4,
                   nav:false,
                   dots: false,
+                  touchDrag: false, // Disable swipe on touch devices
+                mouseDrag: false,
                 },
               }}
               nav
             >
-              <Instagrame />
-              <Instagrame />
-              <Instagrame />
-              <Instagrame />
-              <Instagrame />
+            <Instagrame/>
+            <Instagrame/>
+            <Instagrame/>
+            <Instagrame/>
+            <Instagrame/>
             </OwlCarousel>
           </div>
         </div>
         <div className="video_button instagram_btn">
-          <button className="view_btn insta_view">
-            Visit Our Instagram{" "}
-            <img src="./white_instagram.png" className="p-2"></img>
-          </button>
-        </div>
+        <Icon_button icon="./white_instagram.png" title="Visit Our Instagram" className='' />
+      
+          </div>
       </div>
     </div>
   );

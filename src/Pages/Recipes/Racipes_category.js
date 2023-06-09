@@ -1,5 +1,6 @@
 import React from 'react'
 import racipe_list from './Racipe_list'
+import Buttons from '../../Components/Buttons/Button'
 function Racipes_category() {
   return (
     <div className="container-fluid">
@@ -34,15 +35,9 @@ function Racipes_category() {
                   )}
                 </div>
                 <div className="hero_button r_btn">
-                  <button className="letter_button racipes_button">
-                    <img src="./Timer.png" alt="Timer" />
-                    <div className="button_title">30 Minutes</div>
-                  </button>
-                  <button className="letter_button racipes_button">
-                    <img src="./ForkKnife.png" alt="Fork and Knife" />
-                    <div className="button_title">Chicken</div>
-                  </button>
-                </div>
+        <Buttons  icon="./Timer.png" title="30 Minutes" className={'racipes_button'}/>
+        <Buttons icon="./ForkKnife.png" title="Chicken" className={'racipes_button'} />
+      </div>
               </div>
             </div>
           ))}

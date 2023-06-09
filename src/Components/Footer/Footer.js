@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Racipe_cate_2 from "../../Pages/Recipes/Racipe_cate_2";
+import Home_Inbox from "../Home_Inbox";
 
 function Footer() {
   return (
     <div>
+   <Racipe_cate_2/>
+   <Home_Inbox/>
       <div className="footer">
         <div className="container-fluid">
           <div className="row footer_info">

@@ -1,55 +1,62 @@
 import React from "react";
 import categorylist from "./category_list";
 import OwlCarousel from "react-owl-carousel";
+import CategoryButton from "../Buttons/Category_btn";
 function Category() {
   return (
     <div className="container-fluid">
       <div className="category ">
         <div className="category_title">Categories</div>
-        <button className="category_btn">View All Categories</button>
+        <CategoryButton  title="View All Categories" className={'category_btn'} />
       </div>
+      
       <div className="category_list">
         <div className="row">
           <OwlCarousel
             className="owl-theme"
-            loop
             margin={20}
             items={6}
-           
             responsive={{
               0: {
                 items: 1,
                 nav: true,
-                autoplayTimeout: 1000, // Autoplay interval in milliseconds
-        autoplaySpeed: 1000, // Transition speed in milliseconds
-        autoplayHoverPause: true,
+                autoplayTimeout: 1000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: true,
+                loop: true,
               },
               576: {
                 items: 2,
                 nav: true,
-                  autoplay: true,
-              autoplayTimeout: 1000
-
+                autoplay: true,
+                autoplayTimeout: 1000,
+                loop: true,
               },
               768: {
                 items: 3,
                 nav: true,
-                  autoplay: true,
-              autoplayTimeout: 1000
+                autoplay: true,
+                autoplayTimeout: 1000,
+                loop: true,
               },
               992: {
                 items: 6,
-                nav:false,
-                  dots: false,
-              
+                nav: false,
+                dots: false,
+                loop: false,
+                touchDrag: false, // Disable swipe on touch devices
+                mouseDrag: false, // Remove loop property
               },
             }}
-            nav
           >
             {categorylist.map((category) => (
               <div className="" key={category.id}>
                 <div className="list" style={category.style}>
-                  <img src={category.image} alt={category.title} className="list_img" />
+                  <img
+                    src={category.image}
+                    alt={category.title}
+                    className="list_img"
+                  />
                   <div className="list_name">{category.title}</div>
                 </div>
               </div>
@@ -57,7 +64,9 @@ function Category() {
           </OwlCarousel>
         </div>
       </div>
+    
     </div>
+    
   );
 }
 

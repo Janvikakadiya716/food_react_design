@@ -52,7 +52,7 @@ body {
 .button_title {
   font-size: 14px;
   color: var(--grey-text--);
-  padding-left: 13px;
+  padding-left: 10px;
   padding-top: 2px;
   font-weight: 500;
 }
@@ -124,6 +124,15 @@ body {
   color: white;
   border: none;
 }
+
+  .view_btn {
+    padding: 18px 36px 18px 36px;
+    background-color: var(--black-text--);
+    border-radius: 16px;
+    color: white;
+    border: none;
+  }
+
 .view_btn:hover {
   background-color: var(--grey-text--);
 }
@@ -187,8 +196,8 @@ body {
 .category_btn {
   background-color: var(--sky-blue--);
   padding: 21px 27px 21px 27px;
-  font-size: 16px !important;
-  font-weight: 600 !important;
+  font-size: 16px ;
+  font-weight: 600;
   border-radius: 16px;
   border: none;
   color: var(--black-text--);
@@ -354,6 +363,8 @@ font-size: 12px !important;
     border-radius: 50px;
     padding: 3px 3px 3px 3px !important;
   }
+ 
+  
   .rice_p {
     display: none !important;
   }
@@ -978,7 +989,7 @@ option {
   .footer_logo {
     text-align: center;
   }
-  .footer_menu {
+  .footer .footer_menu {
     display: none !important;
   }
   .blog_p_name {

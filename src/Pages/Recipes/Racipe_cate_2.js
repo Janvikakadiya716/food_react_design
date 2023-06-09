@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Buttons from '../../Components/Buttons/Button'
 function Racipe_cate_2() {
   const racipe_list = [
     {
@@ -55,16 +55,10 @@ function Racipe_cate_2() {
                     <>{recipe.title.slice(0, 35)}...</>
                   )}
                 </div>
-                <div className="d-flex ">
-                  <button className="d-flex cate_r_2">
-                    <img src="./Timer.png" alt="Timer" />
-                    <div className="button_title">30 Minutes</div>
-                  </button>
-                  <button className="d-flex cate_r_2">
-                    <img src="./ForkKnife.png" alt="Fork and Knife" />
-                    <div className="button_title">Chicken</div>
-                  </button>
-                </div>
+                <div className="d-flex">
+        <Buttons icon="./Timer.png" title="30 Minutes" className={'racipes_button'} />
+        <Buttons icon="./ForkKnife.png" title="Chicken" className={'racipes_button'}/>
+      </div>
               </div>
             </div>
           ))}

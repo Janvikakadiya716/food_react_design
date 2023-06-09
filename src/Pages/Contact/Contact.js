@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Home_Inbox from '../Home_Inbox';
-import Racipe_cate_2 from '../Racipe_cate_2';
-import Footer from '../Footer/Footer';
+// import Home_Inbox from '../../../Components/Home_Inbox';
+// import Racipe_cate_2 from '../../../Components/Recipes/Racipe_cate_2';
+// import Footer from '../../Components/Footer/Footer';
 function Contact() {
   return (
     <><div>Contact</div><>
@@ -42,9 +42,10 @@ function Contact() {
         </div>
 
       </div>
-      <Home_Inbox />
+      {/* <Home_Inbox />
       <Racipe_cate_2 />
-      <Footer /></></>
+      <Footer /> */}
+      </></>
 
   )
 }

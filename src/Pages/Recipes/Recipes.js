@@ -1,7 +1,5 @@
 import React from 'react'
-import Home_Inbox from '../Home_Inbox';
-import Racipe_cate_2 from '../Racipe_cate_2';
-import Footer from '../Footer/Footer';
+
 
 
 function Recipes() {
@@ -379,9 +377,7 @@ function Recipes() {
         </div>
       </div>
     </div>
-    <Home_Inbox/>
-    <Racipe_cate_2/>
-    <Footer/>
+ 
     </div>
     </>
   );
